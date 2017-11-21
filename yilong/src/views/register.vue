@@ -8,8 +8,8 @@
   			<span>已有艺龙账号，</span>
   			<a href="javascript:;">直接登录</a>
   		</div>
-  		<div class="coopera"><input type="checkbox">我有艺龙合作卡</div>
-  		<ul class="card">
+  		<div class="coopera"><input id="id" type="checkbox">我有艺龙合作卡</div>
+  		<ul id="ul" class="card">
   			<li>
   				<p><span>*</span>卡类型：</p>
                 <select name="">

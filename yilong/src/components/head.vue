@@ -139,7 +139,7 @@ export default {
 }
 .header{
   width:100%;
-  height:112px;
+  height:102px;
   // background:red;
   margin-top:10px;
   .header_top{

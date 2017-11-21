@@ -50,14 +50,6 @@
         <a href="javascript:;"></a>
       </div>
       <br>
-      <div class="bottom_nav">
-        <span>酒店预订</span>
-        <span>机票查询</span>
-        <span>酒店团购</span>
-        <span>热门城市</span>
-        <span>合作伙伴</span>
-        <span>常见酒店</span>
-      </div>
     </div>
   </div>
 </template>
@@ -81,7 +73,7 @@ export default {
 }
 .footer{
   width:100%;
-  height:305px;
+  height:100%;
   // background:#abcdef;
   .footer_info{
     width:1000px;
@@ -204,28 +196,6 @@ export default {
     a:hover{
       margin-top:-6px;
       transition:all 1s;
-    }
-  }
-  .bottom_nav{
-    width:100%;
-    height:40px;
-    background:#7C8FA2;
-    display:flex;
-    justify-content:center;
-    span{
-      display:block;
-      width:166px;
-      height:40px;
-      line-height:40px;
-      text-align:center;
-      font-size:15px;
-      cursor:pointer;
-    }
-    span:nth-of-type(1){
-      background:#C0D2E4;
-    }
-    span:hover{
-      background:#999;
     }
   }
 }

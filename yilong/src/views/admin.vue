@@ -683,12 +683,12 @@
       <br>
     </div>
     <div class="bottom_nav">
-      <span>酒店预订</span>
-      <span>机票查询</span>
-      <span>酒店团购</span>
-      <span>热门城市</span>
-      <span>合作伙伴</span>
-      <span>常见酒店</span>
+      <span class="con1">酒店预订</span>
+      <span class="con1">机票查询</span>
+      <span class="con1">酒店团购</span>
+      <span class="con1">热门城市</span>
+      <span class="con1">合作伙伴</span>
+      <span class="con1">常见酒店</span>
     </div>
     <div class="bottom_con">
       <h2>酒店预订</h2>
@@ -842,7 +842,11 @@ export default {
 
   },
   mounted(){
+    var con=document.querySelectorAll(".bottom_nav .con1");
 
+    con[0].onclick=function(){
+      alert("aa")
+    }
   }
 }
 </script>
