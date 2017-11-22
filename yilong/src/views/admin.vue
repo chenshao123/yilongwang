@@ -130,6 +130,57 @@
           <div></div>
           <li><i class="ei_icon4"></i>手机版</li>
         </ul>
+        <div class="cate_channel">
+          <div class="wrap_ts">
+            <div class="title_tab">
+              <span class="tab_span">国内酒店
+                <i></i>
+              </span>
+              <span>国际酒店
+                <i></i>
+              </span>
+            </div>
+            <div class="keywords">
+              <dl class="clearfix">
+                <dt>目的地</dt>
+                <dd class="te"><input type="text" value="黄山市"></dd>
+              </dl>
+              <dl class="clearfix fix">
+                <dt>入住</dt>
+                <dd><input type="text" value="2017-11-22"><i></i></dd>
+                <dt>退房</dt>
+                <dd><input type="text" value="2017-11-23"><i></i></dd> 
+              </dl>
+              <dl class="clearfix">
+                <dt>关键词</dt>
+                <dd class="te"><input type="text" placeholder="如位置\酒店名\品牌"></dd>
+              </dl>
+              <div class="submit_wrap">
+                <span><i></i>搜索</span>
+              </div>
+            </div>
+            <div class="keywords">
+              <dl class="clearfix">
+                <dt>目的地</dt>
+                <dd class="te"><input type="text" value="黄山市"></dd>
+              </dl>
+              <dl class="clearfix fix">
+                <dt>入住</dt>
+                <dd><input type="text" value="2017-11-22"><i></i></dd>
+                <dt>退房</dt>
+                <dd><input type="text" value="2017-11-23"><i></i></dd> 
+              </dl>
+              <dl class="clearfix">
+                <dt>关键词</dt>
+                <dd class="te"><input type="text" placeholder="如位置\酒店名\品牌"></dd>
+              </dl>
+              <div class="submit_wrap">
+                <span><i></i>搜索</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
     <br/>
@@ -205,108 +256,492 @@
               <i></i>
               <span>国内</span>
             </b>
-            <span class="no">登高踏青</span>
-            <a class="ss">小憩温泉</a>
-            <a class="ss">天然氧吧</a>
-            <a class="ss">草原撒欢</a>
-            <a class="ss">小镇时光</a>
-            <a class="ss">美食之城</a>
+            <span class="no ss w11">登高踏青</span>
+            <a class="ss w11">小憩温泉</a>
+            <a class="ss w11">天然氧吧</a>
+            <a class="ss w11">草原撒欢</a>
+            <a class="ss w11">小镇时光</a>
+            <a class="ss w11">美食之城</a>
             <span class="right">更多>></span>
           </div>
-          <ul class="tab_theme">
-            <li>
-              <div class="pic_add">
-                <img src="../assets/dgtq-hs.jpg" alt="">
-                <div>黄山</div>
-              </div>
-              <div class="scale_tour">
-                <span>春意撩人</span>
-                <span>登高踏青赏春色</span>
-              </div>
-            </li>
-            <li>
-              <div class="pic_add">
-                <img src="../assets/dgtq-ems.jpg" alt="">
-                <div>峨眉山</div>
-              </div>
-              <div class="scale_tour">
-                <span>阳春三月</span>
-                <span>闻着茶香去峨眉</span>
-              </div>
-            </li>
-            <li>
-              <div class="pic_add">
-                <img src="../assets/dgtq-wts.jpg" alt="">
-                <div>五台山</div>
-              </div>
-              <div class="scale_tour">
-                <span>迎春</span>
-                <span>祈福</span>
-                <span>登五台</span>
-              </div>
-            </li>
-            <li>
-              <div class="pic_add">
-                <img src="../assets/dgtq-ls.jpg" alt="">
-                <div>庐山</div>
-              </div>
-              <div class="scale_tour">
-                <span>亲近自然</span>
-                <span>春游庐山</span>
-              </div>
-            </li>
-          </ul>
+          <div class="tab_themes">
+            <ul class="tab_theme">
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/dgtq-hs.jpg" alt="">
+                  <div>黄山</div>
+                </div>
+                <div class="scale_tour">
+                  <span>春意撩人</span>
+                  <span>登高踏青赏春色</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/dgtq-ems.jpg" alt="">
+                  <div>峨眉山</div>
+                </div>
+                <div class="scale_tour">
+                  <span>阳春三月</span>
+                  <span>闻着茶香去峨眉</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/dgtq-wts.jpg" alt="">
+                  <div>五台山</div>
+                </div>
+                <div class="scale_tour">
+                  <span>迎春</span>
+                  <span>祈福</span>
+                  <span>登五台</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/dgtq-ls.jpg" alt="">
+                  <div>庐山</div>
+                </div>
+                <div class="scale_tour">
+                  <span>亲近自然</span>
+                  <span>春游庐山</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tab_themes">
+            <ul class="tab_theme">
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/hbtl-tianmuhu.jpg" alt="">
+                  <div>江苏天目湖</div>
+                </div>
+                <div class="scale_tour">
+                  <span>古树错落</span>
+                  <span>帝王温泉</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/hbtl-tianmuweihai.jpg" alt="">
+                  <div>威海天沐威海温泉</div>
+                </div>
+                <div class="scale_tour">
+                  <span>森林温泉</span>
+                  <span>草本养生</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/hbtl-zhongshan.jpg" alt="">
+                  <div>广东中山温泉</div>
+                </div>
+                <div class="scale_tour">
+                  <span>毗邻港澳</span>
+                  <span>商务养生</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/hbtl-anbo.jpg" alt="">
+                  <div>辽宁大连安波温泉</div>
+                </div>
+                <div class="scale_tour">
+                  <span>延年益寿</span>
+                  <span>名誉中外</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tab_themes">
+            <ul class="tab_theme">
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/hbtl-lasa.jpg" alt="">
+                  <div>拉萨</div>
+                </div>
+                <div class="scale_tour">
+                  <span>高原古城</span>
+                  <span>圣山天湖</span>
+                  <span>沁人心脾</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/hbtl-dali.jpg" alt="">
+                  <div>大理</div>
+                </div>
+                <div class="scale_tour">
+                  <span>文献名邦</span>
+                  <span>彩云之南</span>
+                  <span>空谷幽兰</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/hbtl-zhoushan.jpg" alt="">
+                  <div>舟山</div>
+                </div>
+                <div class="scale_tour">
+                  <span>东海翡翠</span>
+                  <span>舟山群岛</span>
+                  <span>气候宜人</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/hbtl-xiamen.jpg" alt="">
+                  <div>厦门</div>
+                </div>
+                <div class="scale_tour">
+                  <span>天风海涛</span>
+                  <span>鼓浪岛屿</span>
+                  <span>鸟语芬芳</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tab_themes">
+            <ul class="tab_theme">
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/cysh-xlgl.jpg" alt="">
+                  <div>锡林郭勒</div>
+                </div>
+                <div class="scale_tour">
+                  <span>草原</span>
+                  <span>牧民</span>
+                  <span>小马驹</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/cysh-bs.jpg" alt="">
+                  <div>坝上</div>
+                </div>
+                <div class="scale_tour">
+                  <span>帝都最近的草原</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/cysh-reg.jpg" alt="">
+                  <div>若尔盖</div>
+                </div>
+                <div class="scale_tour">
+                  <span>高原上的绿洲</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/cysh-qls.jpg" alt="">
+                  <div>祁连山</div>
+                </div>
+                <div class="scale_tour">
+                  <span>风景如画</span>
+                  <span>醉美祁连山</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tab_themes">
+            <ul class="tab_theme">
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_t3_xt.jpg" alt="">
+                  <div>西塘</div>
+                </div>
+                <div class="scale_tour">
+                  <span>烟雨长廊</span>
+                  <span>景色好似宣纸画</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_t3_hs.jpg" alt="">
+                  <div>和顺</div>
+                </div>
+                <div class="scale_tour">
+                  <span>古风犹存</span>
+                  <span>如诗如画</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_t3_wz.jpg" alt="">
+                  <div>乌镇</div>
+                </div>
+                <div class="scale_tour">
+                  <span>推窗见水</span>
+                  <span>小桥人家</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_t3_py.jpg" alt="">
+                  <div>平遥</div>
+                </div>
+                <div class="scale_tour">
+                  <span>晋商遗风</span>
+                  <span>古城探幽</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tab_themes">
+            <ul class="tab_theme">
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_t4_xg.jpg" alt="">
+                  <div>香港</div>
+                </div>
+                <div class="scale_tour">
+                  <span>只有想不到，没有找不到</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_t4_cd.jpg" alt="">
+                  <div>城都</div>
+                </div>
+                <div class="scale_tour">
+                  <span>不只有火锅，吃是头等事</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_t4_yz.jpg" alt="">
+                  <div>扬州</div>
+                </div>
+                <div class="scale_tour">
+                  <span>吴侬软语 淮味养人</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_t4_cs.jpg" alt="">
+                  <div>长沙</div>
+                </div>
+                <div class="scale_tour">
+                  <span>美食怕不辣，湘味最十足</span>
+                </div>
+              </li>
+            </ul>
+          </div>
           <br/>
-          <div class="clearfix">
+         <div class="clearfix">
             <b>
               <i class="shu"></i>
               <span>海外</span>
             </b>
-            <span class="no">文艺清新</span>
-            <a class="ss">面朝大海</a>
-            <a class="ss">别样建筑</a>
-            <a class="ss">浪漫主义</a>
-            <a class="ss">魅力都市</a>
+            <span class="no ss w15">文艺清新</span>
+            <a class="ss w15">面朝大海</a>
+            <a class="ss w15">别样建筑</a>
+            <a class="ss w15">浪漫主义</a>
+            <a class="ss w15">魅力都市</a>
             <span class="right">更多>></span>
           </div>
-          <ul class="tab_theme">
-            <li>
-              <div class="pic_add">
-                <img src="../assets/termini_it1_ld.jpg" alt="">
-                <div>伦敦</div>
-              </div>
-              <div class="scale_tour">
-                <span>风情英伦，帝国余韵</span>
-              </div>
-            </li>
-            <li>
-              <div class="pic_add">
-                <img src="../assets/termini_it1_qm.jpg" alt="">
-                <div>清迈</div>
-              </div>
-              <div class="scale_tour">
-                <span>泰北玫瑰，满行古城</span>
-              </div>
-            </li>
-            <li>
-              <div class="pic_add">
-                <img src="../assets/termini_it1_jzd.jpg" alt="">
-                <div>济州岛</div>
-              </div>
-              <div class="scale_tour">
-                <span>最传统的浪漫，最神秘的自然</span>
-              </div>
-            </li>
-            <li>
-              <div class="pic_add">
-                <img src="../assets/termini_it1_qm.jpg" alt="">
-                <div>罗马</div>
-              </div>
-              <div class="scale_tour">
-                <span>永恒之城，魅力无限</span>
-              </div>
-            </li>
-          </ul>
+          <div class="tabs">
+            <ul class="tab_theme">
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it1_ld.jpg" alt="">
+                  <div>伦敦</div>
+                </div>
+                <div class="scale_tour">
+                  <span>风情英伦，帝国余韵</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it1_qm.jpg" alt="">
+                  <div>清迈</div>
+                </div>
+                <div class="scale_tour">
+                  <span>泰北玫瑰，满行古城</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it1_jzd.jpg" alt="">
+                  <div>济州岛</div>
+                </div>
+                <div class="scale_tour">
+                  <span>最传统的浪漫，最神秘的自然</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it1_qm.jpg" alt="">
+                  <div>罗马</div>
+                </div>
+                <div class="scale_tour">
+                  <span>永恒之城，魅力无限</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tabs">
+            <ul class="tab_theme">
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it2_pjd.jpg" alt="">
+                  <div>普吉岛</div>
+                </div>
+                <div class="scale_tour">
+                  <span>海岛胜地，天人合一</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it2_medf.jpg" alt="">
+                  <div>马尔代夫</div>
+                </div>
+                <div class="scale_tour">
+                  <span>一岛一世界</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it2_sb.jpg" alt="">
+                  <div>沙巴</div>
+                </div>
+                <div class="scale_tour">
+                  <span>纯净之极的原生态梦幻岛屿</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it2_xwy.jpg" alt="">
+                  <div>夏威夷</div>
+                </div>
+                <div class="scale_tour">
+                  <span>凝聚着东方妩媚与西方性感</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tabs">
+            <ul class="tab_theme">
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it3_bsln.jpg" alt="">
+                  <div>巴塞罗那</div>
+                </div>
+                <div class="scale_tour">
+                  <span>天使之城，艺术之都</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it3_ml.jpg" alt="">
+                  <div>米兰</div>
+                </div>
+                <div class="scale_tour">
+                  <span>在时尚与古典间穿梭</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it3_msk.jpg" alt="">
+                  <div>莫斯科</div>
+                </div>
+                <div class="scale_tour">
+                  <span>畅饮伏特加的英雄之城</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it3_ystbe.jpg" alt="">
+                  <div>伊斯坦布尔</div>
+                </div>
+                <div class="scale_tour">
+                  <span>古老与现代辉映，东方与西方交融</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tabs">
+            <ul class="tab_theme">
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it4_medf.jpg" alt="">
+                  <div>马尔代夫</div>
+                </div>
+                <div class="scale_tour">
+                  <span>一岛一世界</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it4_stln.jpg" alt="">
+                  <div>圣托里尼</div>
+                </div>
+                <div class="scale_tour">
+                  <span>蓝白色的人间伊甸园</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it4_bl.jpg" alt="">
+                  <div>巴黎</div>
+                </div>
+                <div class="scale_tour">
+                  <span>浪漫如斯，热情如是</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it4_plws.jpg" alt="">
+                  <div>普罗旺斯</div>
+                </div>
+                <div class="scale_tour">
+                  <span>薰衣草之乡</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tabs">
+            <ul class="tab_theme">
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it5_xjp.jpg" alt="">
+                  <div>新加坡</div>
+                </div>
+                <div class="scale_tour">
+                  <span>乐享狮城，多彩四季</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it5_amstd.jpg" alt="">
+                  <div>阿姆斯特丹</div>
+                </div>
+                <div class="scale_tour">
+                  <span>郁金香绽放的水都</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it5_lsj.jpg" alt="">
+                  <div>洛杉矶</div>
+                </div>
+                <div class="scale_tour">
+                  <span>好莱坞的风情</span>
+                </div>
+              </li>
+              <li>
+                <div class="pic_add">
+                  <img src="../assets/termini_it5_jlp.jpg" alt="">
+                  <div>吉隆坡</div>
+                </div>
+                <div class="scale_tour">
+                  <span>双子塔上，气度非凡</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </div>
@@ -597,19 +1032,19 @@
         <div class="service_inf">
           <ul>
             <li>
-              <i class="icon1"></i>
+              <i class="icon1 wr"></i>
               <span>全球75万家酒店</span>
             </li>
             <li>
-              <i class="icon2"></i>
+              <i class="icon2 wr"></i>
               <span>订酒店返现金高达20%</span>
             </li>
             <li>
-              <i class="icon3"></i>
+              <i class="icon3 wr"></i>
               <span>国际酒店8折起</span>
             </li>
             <li>
-              <i class="icon4"></i>
+              <i class="icon4 wr"></i>
               <span>7×24小时服务</span>
             </li>
           </ul>
@@ -669,7 +1104,7 @@
       </div>
       <br>
       <div class="footer_copy">
-        © 2000 - 2017 北京艺龙信息技术有限公司, eLong, Inc or its affiliates. All Rights Reserved.京ICP证010011号 <span></span>&nbsp;&nbsp;&nbsp;  京公网安备11010502026059号经营执照
+        © 2000 - 2017 北京艺龙信息技术有限公司, eLong, Inc or its affiliates. All Rights Reserved.京ICP证010011号 <span></span>&nbsp;&nbsp;&nbsp;&nbsp;京公网安备11010502026059号经营执照
       </div>
       <br>
       <div class="footer_safe">
@@ -842,11 +1277,71 @@ export default {
 
   },
   mounted(){
-    var con=document.querySelectorAll(".bottom_nav .con1");
-
-    con[0].onclick=function(){
-      alert("aa")
+    var con=document.querySelectorAll(".bottom_nav span");
+    var bottom=document.querySelectorAll(".bottom_con");
+    for(let i=0;i<con.length;i++){
+      con[i].onclick=function(){
+        for(let j=0;j<con.length;j++){
+         con[j].style.background="#7c8fa2";
+         bottom[j].style.display="none"
+        }
+         bottom[i].style.display='block';
+         con[i].style.background="#c0d2e4";
+      }
     }
+
+    
+    var a=document.querySelectorAll(".w11");
+    var tab=document.querySelectorAll(".tab_themes");  
+    tab[0].style.display="block";
+    for(let i=0;i<a.length;i++){
+      a[i].onclick=function(){
+        for(let j=0;j<tab.length;j++){
+         tab[j].style.display="none"
+         a[j].style.color="#999"
+         a[j].style.background="#fff"
+        }
+         a[i].style.background="#f55"
+         tab[i].style.display='block';
+         a[i].style.color="#fff"
+      }
+    }
+
+
+    var tle=document.querySelectorAll(".title_tab span");
+    var key=document.querySelectorAll(".keywords");   
+    key[0].style.display="block";
+    for(let i=0;i<tle.length;i++){
+      tle[i].onclick=function(){
+        for(let j=0;j<key.length;j++){
+         key[j].style.display="none"
+         tle[j].style.borderBottom=""
+         // w15[j].style.color="#999"
+         // w15[j].style.background="#fff"
+        }
+        key[i].style.display='block';
+        tle[i].style.borderBottom="2px solid #37D"
+        // w15[i].style.color="#fff"
+      }
+    }
+
+    
+    var w15=document.querySelectorAll(".w15");
+    var tabs=document.querySelectorAll(".tabs");   
+    tabs[0].style.display="block";
+    for(let i=0;i<w15.length;i++){
+      w15[i].onclick=function(){
+        for(let j=0;j<tabs.length;j++){
+         tabs[j].style.display="none"
+         w15[j].style.color="#999"
+         w15[j].style.background="#fff"
+        }
+        tabs[i].style.display='block';
+        w15[i].style.background="#f55"
+        w15[i].style.color="#fff"
+      }
+    }
+    
   }
 }
 </script>
@@ -1321,6 +1816,8 @@ export default {
     position:absolute;
     top:35px;
     left:70px;
+    display:flex;
+    justify-content: space-between;
     .left{
       width:100px;
       height:300px;
@@ -1364,6 +1861,116 @@ export default {
           width:16px;
           height:19px;
           background:url(../assets/icon_index.png) -581px -317px no-repeat;
+        }
+      }
+    }
+    .cate_channel{
+      width:500px;
+      height:300px;
+      background:#fff;
+      .wrap_ts{
+        width:440px;
+        height:257px;
+        // background:aqua;
+        margin:0 auto;
+        overflow:hidden;
+        .title_tab{
+          height:32px;
+          margin:10px 0 0 0;
+          border-bottom:2px solid #aaa;
+          .tab_span{
+            border-bottom:2px solid #37D;
+            i{
+              display:block;
+              width:7px;
+              height:4px;
+              background:url(../assets/icon_index.png) -475px 0 no-repeat;
+              position:absolute;
+              top:27px;
+              left:35px;
+            }
+          }
+          span{
+            padding:0 10px 10px 10px;
+            float:left;
+            position:relative;
+            cursor:pointer;
+          }
+        }
+        .keywords{
+          width:440px;
+          height:140px;
+          // background:yellow;
+          margin:20px 0 0 0;
+          display:none;
+          .clearfix{
+            width:440px;
+            height:32px;
+            margin:20px 0 0 0;
+            dt{
+              display:block;
+              width:50px;
+              height:30px;
+              line-height:30px;
+              text-align:right;
+              float:left;
+              font-size:15px;
+              margin:0 5px 0 0;
+            }
+            dd{
+              float:left;
+              input{
+                width:160px;
+                height:25px;
+              }
+            }
+            .te{
+              input{
+                width:380px;
+              }
+            }
+          }
+          .fix{
+            dd{
+              width:160px;
+              height:30px;
+              border:1px solid #ccc;
+              input{
+                width:130px;
+                outline:none;
+                border:0;
+              }
+              i{
+                display:block;
+                width:16px;
+                height:16px;
+                background:url(../assets/icon201706.png) -480px -763px no-repeat;
+                float:right;
+                margin:6px 6px 0 0;
+              }
+            }
+          }
+          .submit_wrap{
+            width:160px;
+            height:32px;
+            background:#f55;
+            margin:20px 0 0 140px;
+            cursor:pointer;
+            span{
+              color:#fff;
+              text-align:center;
+              line-height:32px;
+              i{
+                display:block;
+                width:18px;
+                height:18px;
+                background:url(../assets/icon201706.png) -432px -763px no-repeat;
+                float:left;
+                margin:6px 3px 0 50px;
+
+              }
+            }
+          }
         }
       }
     }
@@ -1530,7 +2137,7 @@ export default {
         }
         .ss:hover{
           border:1px solid #f55;
-          color:#f55;
+          // color:#f55;
         }
         .no{
           font-size:15px;
@@ -1553,55 +2160,59 @@ export default {
           color:red;
         }
       }
-      .tab_theme{
-        width:1200px;
-        height:202px;
-        list-style:none;
-        display:flex;
-        justify-content:space-between;
-        li{
-          width:293px;
+      .tab_themes,.tabs{
+          display:none;
+        .tab_theme{
+          width:1200px;
           height:202px;
+          list-style:none;
+          display:flex;
+          justify-content:space-between;
           // background:red;
-          border-bottom:1px solid #ccc;
-          overflow:hidden;
-          .pic_add{
+          li{
             width:293px;
-            height:160px;
+            height:202px;
+            // background:red;
+            border-bottom:1px solid #ccc;
             overflow:hidden;
-            position:relative;
-            img{
-              // display:block;
+            .pic_add{
               width:293px;
-              height:180px;
+              height:160px;
+              overflow:hidden;
+              position:relative;
+              img{
+                // display:block;
+                width:293px;
+                height:180px;
+              }
+              div{
+                position:absolute;
+                top:120px;
+                left:10px;
+                color:#fff;
+                font-weight:bold;
+                font-size:25px;
+              }
             }
-            div{
-              position:absolute;
-              top:120px;
-              left:10px;
-              color:#fff;
-              font-weight:bold;
-              font-size:25px;
+            .scale_tour{
+              width:293px;
+              height:41px;
+              color:#f7f7f7;
+              span{
+                line-height:41px;
+                margin:0 0 0 5px;
+                color:#999;
+                font-size:13px;
+              }
             }
           }
-          .scale_tour{
-            width:293px;
-            height:41px;
-            color:#f7f7f7;
-            span{
-              line-height:41px;
-              margin:0 0 0 5px;
-              color:#999;
-              font-size:13px;
-            }
-          }
-        }
-        li:hover{
-          border-bottom:2px solid #f55;
-          .pic_add{
-            img{
-              margin-top:-15px;
-              transition:0.3s;
+          li:hover{
+            border-bottom:2px solid #f55;
+            .pic_add{
+              img{
+                margin-top:-15px;
+                transition:0.3s;
+              }
             }
           }
         }
@@ -1931,8 +2542,34 @@ export default {
             background:url(../assets/icon_index.png) -228px -4px no-repeat;
           }
           .icon4{
-            background:url(../assets/icon_index.png) -295px -4px no-repeat;
+            background:url(../assets/icon_index.png) -295px -6px no-repeat;
           }
+        }
+        li:hover{
+          .wr{
+            animation:arr 2s ease;
+            -webkit-animation:arr 0.5s ease  2 alternate both;
+          }
+            @keyframes arr{
+              0%{
+                transform:rotate(0deg)
+              }
+              20%{
+                transform:rotate(20deg)
+              }
+              40%{
+                transform:rotate(-20deg)
+              }
+              60%{
+                transform:rotate(20deg)
+              }
+              80%{
+                transform:rotate(-20deg)
+              }
+              100%{
+                transform:rotate(0deg)
+              }
+            }
         }
       }
     }
@@ -2077,7 +2714,7 @@ export default {
       background:url(../assets/anbei.png);
       position:absolute;
       top:0;
-      left:915px;
+      left:900px;
     }
   }
   .footer_safe{
@@ -2146,9 +2783,9 @@ export default {
   span:nth-of-type(1){
     background:#C0D2E4;
   }
-  span:hover{
-    background:#999;
-  }
+  // span:hover{
+  //   background:#999;
+  // }
 }
 .bottom_con{
   width:1000px;

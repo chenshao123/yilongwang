@@ -1415,7 +1415,12 @@
                </div>
              </div>
            </div>
-
+           <div class="listSEO">
+             <div class="seo">
+               <span>黄山市酒店信息</span>
+               <i></i>
+             </div>
+           </div>
          </div>
        </div>
        <!-- 右 -->
@@ -2154,6 +2159,26 @@ export default {
               }
             }
           }
+        }
+      }
+    }
+    .listSEO{
+      width:1200px;
+      height:50px;
+      background:aqua;
+      overflow:hidden;
+      margin:30px 0 0 0;
+      .seo{
+        width:130px;
+        margin:15px 0 0 0;
+        padding:0 0 0 10px;
+        i{
+          display:block;
+          width:11px;
+          height:11px;
+          background:url(../assets/icon2015-1.png) -301px -121px no-repeat;
+          float:right;
+          margin:7px 0 0 3px;
         }
       }
     }

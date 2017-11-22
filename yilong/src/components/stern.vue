@@ -38,7 +38,7 @@
       </div>
       <br>
       <div class="footer_copy">
-        © 2000 - 2017 北京艺龙信息技术有限公司, eLong, Inc or its affiliates. All Rights Reserved.京ICP证010011号 <span></span>&nbsp;&nbsp;&nbsp;  京公网安备11010502026059号经营执照
+        © 2000 - 2017 北京艺龙信息技术有限公司, eLong, Inc or its affiliates. All Rights Reserved.京ICP证010011号 <span></span>&nbsp;&nbsp;&nbsp;京公网安备11010502026059号经营执照
       </div>
       <br>
       <div class="footer_safe">
@@ -148,7 +148,7 @@ export default {
       background:url(../assets/anbei.png);
       position:absolute;
       top:0;
-      left:915px;
+      left:900px;
     }
   }
   .footer_safe{
